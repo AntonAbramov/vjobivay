@@ -1,0 +1,8 @@
+@mixin gradient($topColor, $bottomColor) {
+  // needs latest Compass, add '@import "compass"' to your scss
+  background-color: $topColor; // Old browsers
+  @include filter-gradient($topColor, $bottomColor, vertical); // IE6-8
+  // IE9 SVG, needs conditional override of 'filter' to 'none'
+  $experimental-support-for-svg: true;
+  @include background-image(linear-gradient(top, $topColor 0%,$bottomColor 100%));
+}
