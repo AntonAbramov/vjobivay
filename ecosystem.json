@@ -24,7 +24,7 @@
     "production": {
       "user": "root",
       "host": "139.59.157.85",
-      "port": "22",
+      "port": "2233",
       "ref": "origin/master",
       "repo": "git@github.com:AntonAbramov/vjobivay.git",
       "path": "/var/www/vjobivay/",
