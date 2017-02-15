@@ -23,7 +23,7 @@
   "deploy": {
     "production": {
       "user": "root",
-      "host": "138.68.98.175",
+      "host": "139.59.157.85",
       "port": "22",
       "ref": "origin/master",
       "repo": "git@github.com:AntonAbramov/vjobivay.git",
